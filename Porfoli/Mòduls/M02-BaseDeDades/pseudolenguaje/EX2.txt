@@ -1,0 +1,53 @@
+FABRICA(telefon,adreca,nom,codi)clau:codi
+
+PRODUCTE(codi,nom,preu,codi_Fabrica)clau:codi
+codi_Fabrica REF FABRICA(codi)
+
+DATA(dataInici)clau:datainici
+
+EMPLEAT(codi,DNI,nom)clau:DNI
+
+TREBALLA(funcio,dataFinal,datainici,codi_Empleat,codi_Fabrica)
+clau:datainici,codi_Empleat
+datainici REF DATA(datainici)
+codi_Empleat REF EMPLEAT(codi)
+datainici REF DATA(datainici)
+
+MATERIAPRIMERA(codi,nom)
+clau:codi
+
+COMPOSICIO(percentatge,codi_Materia,codi_Producte)
+clau:codi_Materia,codi_Producte
+codi_Materia REF MATERIAPRIMERA(codi)
+codi_Producte REF PRODUCTE(codi)
+
+PROVEIDOR(codi,nom,cognom,adreca,telefon)
+Clau:codi
+
+CONTRACTA(codi_Proveidor,codi_fabrica)
+Clau:codi_Proveidor,codi_fabrica
+codi_Proveidor REF PROVEIDOR(codi)
+codi_fabrica REF FABRICA(codi)
+
+COMANDA(codi,data,codi_client)
+Clau:codi
+codi_client REF CLIENT(codi)
+
+DEMANA(quantitat,codi_Comanda,codi_Producte)
+Clau:codi_Comanda,codi_Producte
+codi_Comanda REF Comanda(codi)
+codi_Producte REF Producte(codi)
+
+CLIENT(codi,nom,cif,codi_Magatzem)
+clau:codi
+odi_Magatzem REF MAGATZEM(codi)
+
+
+MAGATZEM(codi,nom,adreca)
+clau:codi
+
+ESTOC(estoc,codi_Magatzem,codi_producte)
+clau:codi_Magatzem,codi_producte
+codi_Magatzem REF MAGATZEM(codi)
+codi_producte REF PRODUCTE(codi)
+

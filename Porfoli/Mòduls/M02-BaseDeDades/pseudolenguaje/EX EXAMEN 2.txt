@@ -1,0 +1,45 @@
+FABRICANT(nom,adreça)
+clau:nom
+
+TELEFON(numero,nom_fabricant,nom_distribuidor)
+clau:numero
+nom_fabricant REF FABRICANT(nom)
+nom_distribuidor REF DISTRIBUIDOR(nom)
+
+MOBLE(codi,linia,color,ample,alt,llarg,nom_fabricant,codi_cuina)
+clau:codi
+nom_fabricant REF FABRICANT(nom)
+codi_cuina REF CUINA(codi)
+
+
+MOBLE_ALT()
+MOBLE_BAIX(alçada)
+PANELL()
+ENCIMERA(tipus)
+PANELL()
+ENCIMERA(tipus)
+
+DISTRIBUIDOR(nom,adreça)
+clau:nom
+
+CUINA(codi,nom_distribuidor,data)
+clau:codi
+nom_distribuidor REF DISTRIBUIDOR
+nom_distribuidor REF DISTRIBUIDOR
+
+CLIENT(nif,nom,adreça,telefon)clau:nif
+
+MUNTADOR(nif,nom,adreça,telefon,c_muntades,codi_cuina)
+clau:nif
+codi_cuina REF CUINA(codi)
+
+
+TREBALLA(nom_distribuidor,nom_fabricant)
+clau:nom_distribuidor,nom_fabricant
+nom_distribuidor REF FABRICANT(nom)
+nom_fabricant REF FABRICANT(nom)
+
+COMPRA(codi_cuina,nif_client)
+clau:codi_cuina,nif_client
+codi_cuina REF CUINA(codi)
+nif_client REF CLIENT(nif)

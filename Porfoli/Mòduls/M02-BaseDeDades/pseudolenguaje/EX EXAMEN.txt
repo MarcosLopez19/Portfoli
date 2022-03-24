@@ -1,0 +1,56 @@
+CURS(codi,nom,data_inici)clau:codi
+
+PROVA_AVALUCIO(codi,nom)clau:codi
+
+OPERARI(dni,nom,nss,data_naixement)clau:dni
+
+APRENENT(data_inici,dni_aprenent,dni_Especialista)
+codi:dni_aprenent
+dni_aprenent REF OPERARI(dni)
+dni_Especialista REF ESPECIALISTA(dni_Especialista)
+
+ESPECIALISTA(anys_experiencia,dni_Especialista )
+clau:dni_Especialista
+dni_Especialista REF OPERARI(dni)
+
+AREA(numero,localització,superficie)clau:numero
+
+TASCA(codi,descipcio,pes)
+clau:codi,codi_Reparacio
+codi_Reparacio REF REPARACIO(codi)
+
+EINA(codi,descripcio,pes)clau:codi
+
+LOCOMOTORA(codi,nom)clau:codi
+
+REPARACIO(codi,nom,durada,data_inici,codi_locomotora)
+clau:codi
+codi_locomotora REF LOCOMOTORA(codi)
+
+Recanvi(codi,descripcio,nom_recanvi)
+clau:codi
+nom_recanvi REF RECANVI(nom)
+
+
+PROVEIDOR(nom)clau:nom
+
+AVALUACIÓ(codi_curs,nota,dni_aprenent,codi_provaAVA)
+clau:dni_aprenent,codi_provaAVA
+dni_aprenent REF APRENENT(dni_aprenent)
+codi_provaAVAREF PROVA_AVALUACIO(codi)
+
+ASSIGNA(hores,numero_area,dni_operari,codi_Tasca,codi_Reparacio)
+clau:numero_area,dni_operari
+numero_area REF AREA(numero)
+dni_operari REF OPERARI(dni)
+codi_Tasca,codi_Reparacio REF TASCA(codi,codi_Reparacio)
+
+UTILIZA(data_inici,data_final,codi_eina,codi_Tasca,codi_Reparacio)
+clau:codi_eina,codi_Tasca,codi_Reparacio
+codi_Tasca,codi_Reparacio REF TASCA(codi,codi_Reparacio)
+codi_eina REF EINA(codi)
+
+REQUEREIX(unitatscodi_Reparacio,codi_Recanvi)
+clau:codi_Reparacio,codi_Recanvi
+codi_Reparacio REF REPARACIO(codi)
+codi_Recanvi REF RECANVI(codi)

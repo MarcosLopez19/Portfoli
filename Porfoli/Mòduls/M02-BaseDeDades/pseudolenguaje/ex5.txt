@@ -1,0 +1,75 @@
+PERSONAL (nss, nom, cognom1, cognom2)
+clau: nss
+
+DIRECTOR (nss_direcotor)
+clau:nss_direcotor
+nss_director REF PERSONAL(nss) 
+
+GUIONISTA (nss_guionista)
+clau:nss_guionista
+nss_guionista REF PERSONAL(nss)
+
+ACTOR (nss_actor)
+clau:nss_actor
+nss_actor REF PERSONAL(nss)
+
+SERIE (nom,public,codi_tema,nss_director,nom_continuacio)
+clau: nom
+codi_tema REF TEMA(codi)
+nss_director REF DIRECTOR(nss_director)
+nom_continuacio REF CONTINUACIO(nom)
+
+TV (nom, ambit)
+clau: nom
+
+TEMA (codi, descripcio)
+clau: codi
+
+CAPITOL (num, resum,nom_serie) 
+clau: num,nom_serie	
+nom_serie REF SERIE(nom)
+
+DATA (data_inici)
+clau: data_inici
+
+PLATO (codi, m2)
+clau: codi
+
+PRODUCTE (codi, nom,CIF_Producte)
+clau: codi
+codi_Fabricant REF FABRICANT(codi)
+
+SITUACIO (codi, descripcio)
+clau: descripcio
+
+FABRICANT (cif, nom) 
+clau: CIF
+
+APARICIONS (Preu,codi_producte,codi_situacio,num_capitol,nom_serie)
+clau:codi_producte,codi_situacio,num_capitol,nom_serie
+codi_producte REF PRODUCTE(codi)
+codi_situacio REF SITUACIO(codi)
+num_capitol,nom_serie REF CAPITOL(num,nom_serie)
+
+COMPRA(nom_serie,nom_TV,preu)
+clau:nom_serie,nom_TV
+nom_serie REF SERIE(nom)
+nom_TV REF TV(nom)
+
+ESCRIUEN(nom_serie,nss_guionista)
+clau:nom_serie,nss_guionista
+nom_serie REF SERIE(nom)
+nss_guionista REF GUIONISTA(nss_guionista)
+
+INTERVENEN(paper,nom_serie,nss_actor)
+clau:nom_serie,nss_actor
+nom_serie REF SERIE(nom)
+nss_actor REF ACTOR(nss_actor)
+
+UTILITZACIO(data_fi,data_inici,codi_plato,num_capitol,nom_serie)
+clau:data_inici,codi_plato
+data_inici REF DATA(data_inici)
+codi_plato REF PLATO(codi)
+num_capitol,nom_serie REF CAPITOL(num,nom_serie)
+
+

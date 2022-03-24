@@ -1,0 +1,31 @@
+SUCURASL(Nom)Clau:Nom
+
+CIUTAT(Nom,DNI_Client,Nom_Sucursal)Clau:Nom
+DNI_Client REF CLIENT(DNI)
+Nom_Sucursal REF SUCURSAL(Nom)
+
+Client(DNI,nom,carrer,DNI_Empleat)Clau:DNI
+DNI_Empleat REF EMPLEAT(DNI)
+
+Empleat(DNI,Nom,Telefon,Data_inici,DNI_Superior,Nom_Sucursal)Clau:DNI
+DNI_Superior REF EMPLEADO(DNI) 
+Nom_Sucursal REF SUCURSAL(Nom)
+
+Compte(Numero,Saldo,Data_recent_acces)Clau:Numero
+
+Corrent(descobert,Numero_Compte)Clau:Numero_Compte
+
+Estalvi(Tipus_Interes,Numero_Compte)Clau:Numero_Compte
+
+Prestec(numero)Clau:Numero
+
+Pagamanet(numero,data,import,Numero_Prestec)Clau:Numero,Numero_Prestec
+Numero_Prestec REF PRESTEC(Numero)
+
+Disposa(Numero_Compte,DNI_Client)
+Clau:Numero_Compte,DNI_Client
+Numero_Compte REF COMPTE(Numero)
+DNI_Client REF CLIENT(DNI)
+
+
+
