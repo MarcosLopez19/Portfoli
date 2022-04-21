@@ -6,8 +6,8 @@ En questa Unitat Formativa hem de desnvolupar les seguents **pràtiques**:
 
 ## UF2 
 -En questa Unitat Formativa hem de desnvolupar les seguents **pràtiques**:
-- [Exercicis directoris Linux](https://htmlpreview.github.io/?
-- [Gestió de particions_MarcosLopezSalvador](https://htmlpreview.github.io/?
+- [Exercicis directoris Linux](https://htmlpreview.github.io/?https://github.com/MarcosLopez19/Portfoli/blob/main/Porfoli/M%C3%B2duls/M01-SistemesInform%C3%A0tics/UF2/Gesti%C3%B3%20de%20particions/Gestideparticions_MarcosLopezSalvador.html)
+- [Gestió de particions_MarcosLopezSalvador](https://htmlpreview.github.io/?)
 
 ## UF3
 -En questa Unitat Formativa hem de desnvolupar les seguents **pràtiques**:
