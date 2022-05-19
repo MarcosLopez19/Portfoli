@@ -1,0 +1,21 @@
+/* Tots els elements de la pàgina */
+body{ font: 1em Arial, Helvetica, sans-serif; }
+
+/* Tots els paràgrafs (p) de la pàgina*/
+p{ color: #555555; }
+
+/* Només els paràgrafs que estan inclosos en l'element article */
+p article{ color: #336699; }
+
+/* Tots els enllaços de la pàgina */
+a{ color: #CC3300; }
+
+/* Els elements b continguts als paràgrafs (p) */
+p b{ background: #FFFFCC;}
+
+/* Tots els elements b de tipus especial en tota la pàgina */
+b {background: #FFCC99; }
+
+/* Tots els elements span continguts als div */
+div span{ font-weight: bold; }
+

@@ -1,0 +1,838 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PARC>
+    <INFO_PARC>
+        <NOM>CoperAventura S.A.</NOM>
+        <ADRECA>Passeig de la sort, 1.</ADRECA>
+        <CIUTAT>Can Puces</CIUTAT>
+        <PAIS>Espanya</PAIS>
+        <WEB>http://www.coperaventura.com</WEB>
+    </INFO_PARC>
+
+    <ATRACCIONS>
+        <Zonatematica>
+            <!-- Para las zonas tematicas he hecho una etiqueta de
+             zona tematica general y dentro de esa sub etiquetas con cada zona-->
+            <ESO>
+                <Atraccio nom="Pati Mission">
+                    <!--Para los nombres de las atraciones he preferido poenrlos como un atributo-->
+                    <PassPreferent>SI</PassPreferent>
+                    <AccesDiscapacitats>SI</AccesDiscapacitats>
+                    <Foto>SI</Foto>
+                    <Video>SI</Video>
+                    <AlcadaMinima>
+                        <AcompanyatAdult>1,10m</AcompanyatAdult>
+                        <SenseAdult>120m</SenseAdult>
+                    </AlcadaMinima>
+                    <NivellIntensitat>infantil</NivellIntensitat>
+                </Atraccio>
+
+                <Atraccio nom="L'aula misteriosa">
+                    <PassPreferent>NO</PassPreferent>
+                    <AccesDiscapacitats>SI</AccesDiscapacitats>
+                    <Foto>NO</Foto>
+                    <Video>NO</Video>
+                    <NivellIntensitat>infantil</NivellIntensitat>
+                </Atraccio>
+
+                <Atraccio nom="Magic entrepà">
+                    <PassPreferent>NO</PassPreferent>
+                    <AccesDiscapacitats>NO</AccesDiscapacitats>
+                    <Foto>NO</Foto>
+                    <Video>NO</Video>
+                    <AlcadaMinima>
+                        <AcompanyatAdult>1,30m</AcompanyatAdult>
+                        <SenseAdult>1,40m</SenseAdult>
+                    </AlcadaMinima>
+                    <NivellIntensitat>infantil</NivellIntensitat>
+                </Atraccio>
+
+                <Atraccio nom="Profe-Profe">
+                    <PassPreferent>NO</PassPreferent>
+                    <AccesDiscapacitats>SI</AccesDiscapacitats>
+                    <Foto>SI</Foto>
+                    <Video>NO</Video>
+                    <AlcadaMinima>
+                        <AcompanyatAdult>1m</AcompanyatAdult>
+                        <SenseAdult>1,30m</SenseAdult>
+                    </AlcadaMinima>
+                    <NivellIntensitat>infantil</NivellIntensitat>
+                </Atraccio>
+
+                <Atraccio nom="El salt a la pissarra">
+                    <PassPreferent>NO</PassPreferent>
+                    <AccesDiscapacitats>SI</AccesDiscapacitats>
+                    <Foto>NO</Foto>
+                    <Video>NO</Video>
+                    <AlcadaMinima>
+                        <AcompanyatAdult>0,95m</AcompanyatAdult>
+                        <SenseAdult>1,30m</SenseAdult>
+                    </AlcadaMinima>
+                    <NivellIntensitat>infantil</NivellIntensitat>
+                </Atraccio>
+            </ESO>
+            <Baxillerat>
+                <Atraccio nom="Furius Selectivity">
+                    <PassPreferent>SI</PassPreferent>
+                    <AccesDiscapacitats>SI</AccesDiscapacitats>
+                    <Foto>SI</Foto>
+                    <Video>SI</Video>
+                    <AlcadaMinima>
+                        <AcompanyatAdult>1,40m</AcompanyatAdult>
+                        <SenseAdult>1,40</SenseAdult>
+                    </AlcadaMinima>
+                    <AlcadaMaxima>1,95m</AlcadaMaxima>
+                    <NivellIntensitat>Forta</NivellIntensitat>
+                </Atraccio>
+
+                <Atraccio nom="Examen Splash">
+                    <PassPreferent>SI</PassPreferent>
+                    <AccesDiscapacitats>SI</AccesDiscapacitats>
+                    <Foto>SI</Foto>
+                    <Video>NO</Video>
+                    <AlcadaMinima>
+                        <AcompanyatAdult>1,30m</AcompanyatAdult>
+                        <SenseAdult>1,40</SenseAdult>
+                    </AlcadaMinima>
+                    <NivellIntensitat>Moredara</NivellIntensitat>
+                </Atraccio>
+
+                <Atraccio nom="El tren de sortida">
+                    <PassPreferent>NO</PassPreferent>
+                    <AccesDiscapacitats>SI</AccesDiscapacitats>
+                    <Foto>NO</Foto>
+                    <Video>NO</Video>
+                    <NivellIntensitat>Suau</NivellIntensitat>
+                </Atraccio>
+            </Baxillerat>
+            <GM>
+                <Atraccio nom="Pràtiques River Flume">
+                    <PassPreferent>SI</PassPreferent>
+                    <AccesDiscapacitats>SI</AccesDiscapacitats>
+                    <Foto>SI</Foto>
+                    <Video>NO</Video>
+                    <AlcadaMinima>
+                        <AcompanyatAdult>1,30m</AcompanyatAdult>
+                        <SenseAdult>1,40m</SenseAdult>
+                    </AlcadaMinima>
+                    <NivellIntensitat>Moderada</NivellIntensitat>
+                </Atraccio>
+
+                <Atraccio nom="Dies Festius Rapids">
+                    <PassPreferent>SI</PassPreferent>
+                    <AccesDiscapacitats>NO</AccesDiscapacitats>
+                    <Foto>SI</Foto>
+                    <Video>NO</Video>
+                    <AlcadaMinima>
+                        <AcompanyatAdult>1,20m</AcompanyatAdult>
+                        <SenseAdult>1,30m</SenseAdult>
+                    </AlcadaMinima>
+                    <NivellIntensitat>Moderada</NivellIntensitat>
+                </Atraccio>
+
+                <Atraccio nom="Dies Festius Rapids">
+                    <PassPreferent>NO</PassPreferent>
+                    <AccesDiscapacitats>SI</AccesDiscapacitats>
+                    <Foto>NO</Foto>
+                    <Video>NO</Video>
+                    <AlcadaMinima>
+                        <AcompanyatAdult>1,20m</AcompanyatAdult>
+                        <SenseAdult>1,30m</SenseAdult>
+                    </AlcadaMinima>
+                    <NivellIntensitat>Moderada</NivellIntensitat>
+                </Atraccio>
+
+                <Atraccio nom="Les canones del traspas">
+                    <PassPreferent>NO</PassPreferent>
+                    <AccesDiscapacitats>SI</AccesDiscapacitats>
+                    <Foto>NO</Foto>
+                    <Video>NO</Video>
+                    <NivellIntensitat>Suau</NivellIntensitat>
+                </Atraccio>
+            </GM>
+            <GS>
+                <Atraccio nom="Dual Khan">
+                    <PassPreferent>SI</PassPreferent>
+                    <AccesDiscapacitats>SI</AccesDiscapacitats>
+                    <Foto>SI</Foto>
+                    <Video>SI</Video>
+                    <AlcadaMinima>
+                        <AcompanyatAdult>1,40</AcompanyatAdult>
+                        <SenseAdult>1,40</SenseAdult>
+                    </AlcadaMinima>
+                    <AlcadaMaxima>1,95</AlcadaMaxima>
+                    <NivellIntensitat>Forta</NivellIntensitat>
+                </Atraccio>
+
+                <Atraccio nom="Dhambhala">
+                    <PassPreferent>SI</PassPreferent>
+                    <AccesDiscapacitats>SI</AccesDiscapacitats>
+                    <Foto>SI</Foto>
+                    <Video>SI</Video>
+                    <AlcadaMinima>
+                        <AcompanyatAdult>1,40</AcompanyatAdult>
+                        <SenseAdult>1,40</SenseAdult>
+                    </AlcadaMinima>
+                    <NivellIntensitat>Forta</NivellIntensitat>
+                </Atraccio>
+
+                <Atraccio nom="Project Climbing">
+                    <PassPreferent>NO</PassPreferent>
+                    <AccesDiscapacitats>NO</AccesDiscapacitats>
+                    <Foto>NO</Foto>
+                    <Video>NO</Video>
+                    <AlcadaMinima>
+                        <AcompanyatAdult>1,20</AcompanyatAdult>
+                        <SenseAdult>1,30</SenseAdult>
+                    </AlcadaMinima>
+                    <AlcadaMaxima>1,50</AlcadaMaxima>
+                    <NivellIntensitat>Moredara</NivellIntensitat>
+                </Atraccio>
+
+                <Atraccio nom="Coperkor">
+                    <PassPreferent>SI</PassPreferent>
+                    <AccesDiscapacitats>SI</AccesDiscapacitats>
+                    <Foto>SI</Foto>
+                    <Video>NO</Video>
+                    <AlcadaMinima>
+                        <AcompanyatAdult>1,20</AcompanyatAdult>
+                        <SenseAdult>1,30</SenseAdult>
+                    </AlcadaMinima>
+                    <NivellIntensitat>Suau</NivellIntensitat>
+                </Atraccio>
+            </GS>
+            <Profes>
+                <Atraccio nom="El Temple de les notes">
+                    <PassPreferent>SI</PassPreferent>
+                    <AccesDiscapacitats>SI</AccesDiscapacitats>
+                    <Foto>NO</Foto>
+                    <Video>NO</Video>
+                    <AlcadaMinima>
+                        <AcompanyatAdult>1</AcompanyatAdult>
+                        <SenseAdult>1,40</SenseAdult>
+                    </AlcadaMinima>
+                    <NivellIntensitat>Moderada</NivellIntensitat>
+                </Atraccio>
+
+                <Atraccio nom="El secret dels alumnes">
+                    <PassPreferent>NO</PassPreferent>
+                    <AccesDiscapacitats>NO</AccesDiscapacitats>
+                    <Foto>NO</Foto>
+                    <Video>NO</Video>
+                    <NivellIntensitat>Suau</NivellIntensitat>
+                </Atraccio>
+
+                <Atraccio nom="El secret dels alumnes">
+                    <PassPreferent>NO</PassPreferent>
+                    <AccesDiscapacitats>NO</AccesDiscapacitats>
+                    <Foto>NO</Foto>
+                    <Video>NO</Video>
+                    <AlcadaMinima>
+                        <AcompanyatAdult>1,40</AcompanyatAdult>
+                        <SenseAdult>1,40</SenseAdult>
+                    </AlcadaMinima>
+                    <AlcadaMaxima>1,95</AlcadaMaxima>
+                    <NivellIntensitat>Forta</NivellIntensitat>
+                </Atraccio>
+
+                <Atraccio nom="Hurakan Truancy">
+                    <PassPreferent>NO</PassPreferent>
+                    <AccesDiscapacitats>SI</AccesDiscapacitats>
+                    <Foto>SI</Foto>
+                    <Video>NO</Video>
+                    <AlcadaMinima>
+                        <AcompanyatAdult>1,40</AcompanyatAdult>
+                        <SenseAdult>1,40</SenseAdult>
+                    </AlcadaMinima>
+                    <AlcadaMaxima>1,95</AlcadaMaxima>
+                    <NivellIntensitat>Forta</NivellIntensitat>
+                </Atraccio>
+            </Profes>
+        </Zonatematica>
+    </ATRACCIONS>
+
+    <ESPECTACLES>
+        <!--Igual que en las atraciones he hecho una etiqueta de
+        zona tematica general y dentro de esa sub etiquetas con cada zona -->
+        <Zonatematica>
+            <ESO>
+                <Espectacle nom="Aloha alumnes">
+                    <!-- En el apartado de los espectaculos los nombres estan puestos en los atributos-->
+                    <TipusEspectacle>Aventura</TipusEspectacle>
+                    <PassPreferent>NO</PassPreferent>
+                    <AccesDiscapacitats>SI</AccesDiscapacitats>
+                    <Horari dia="Dilluns">
+                        <!-- Para el horario de los espectaculos lo he dividio 
+                        por dias de la semana y cada dia dentro por las horas que hace el espectaculo -->
+                        <HEspectacle h="11:30" /> <!--En el apartado de las horas he puesto las horas en un atributo llamado h(horas)-->
+                        <HEspectacle h="14:00" />
+                        <HEspectacle h="16:00" />
+                        <HEspectacle h="17:00" />
+                    </Horari>
+                    <Horari dia="Dimarts">
+                        <HEspectacle h="11:30" />
+                        <HEspectacle h="14:00" />
+                        <HEspectacle h="16:00" />
+                        <HEspectacle h="17:00" />
+                    </Horari>
+                    <Horari dia="Dimecres">
+                        <HEspectacle h="11:30" />
+                        <HEspectacle h="14:00" />
+                        <HEspectacle h="16:00" />
+                        <HEspectacle h="17:00" />
+                    </Horari>
+                    <Horari dia="Divendres">
+                        <HEspectacle h="11:30" />
+                        <HEspectacle h="14:00" />
+                        <HEspectacle h="16:00" />
+                        <HEspectacle h="17:00" />
+                    </Horari>
+                    <Horari dia="Dissabte">
+                        <HEspectacle h="11:30" />
+                        <HEspectacle h="14:00" />
+                        <HEspectacle h="16:00" />
+                        <HEspectacle h="17:00" />
+                    </Horari>
+                    <Horari dia="Diumenge">
+                        <HEspectacle h="11:30" />
+                        <HEspectacle h="14:00" />
+                        <HEspectacle h="16:00" />
+                        <HEspectacle h="17:00" />
+                    </Horari>
+                </Espectacle>
+
+                <Espectacle nom="Em sento al paradís">
+                    <TipusEspectacle>Didàctic</TipusEspectacle>
+                    <PassPreferent>NO</PassPreferent>
+                    <AccesDiscapacitats>SI</AccesDiscapacitats>
+                    <Horari dia="Dilluns">
+                        <HEspectacle h="13:00" />
+                        <HEspectacle h="15:00" />
+                    </Horari>
+                    <Horari dia="Dimarts">
+                        <HEspectacle h="13:00" />
+                        <HEspectacle h="15:00" />
+                    </Horari>
+                    <Horari dia="Dimecres">
+                        <HEspectacle h="13:00" />
+                        <HEspectacle h="15:00" />
+                    </Horari>
+                    <Horari dia="Dijous">
+                        <HEspectacle h="13:00" />
+                        <HEspectacle h="15:00" />
+                    </Horari>
+                    <Horari dia="Divendres">
+                        <HEspectacle h="13:00" />
+                        <HEspectacle h="15:00" />
+                    </Horari>
+                    <Horari dia="Dissabte">
+                        <HEspectacle h="12:00" />
+                        <HEspectacle h="15:30" />
+                        <HEspectacle h="15:30" />
+                    </Horari>
+                    <Horari dia="Diumengre">
+                        <HEspectacle h="12:00" />
+                        <HEspectacle h="15:30" />
+                        <HEspectacle h="15:30" />
+                    </Horari>
+                </Espectacle>
+            </ESO>
+            <GM>
+                <Espectacle nom="CCCExperience">
+                    <TipusEspectacle>Passatge del terror</TipusEspectacle>
+                    <PassPreferent>NO</PassPreferent>
+                    <AccesDiscapacitats>SI</AccesDiscapacitats>
+                    <Horari dia="Dissabte">
+                        <HEspectacle>
+                            <Hinici h="11:30" />
+                            <Hfinal h="13:30" />
+                        </HEspectacle>
+                        <HEspectacle>
+                            <Hinici h="15:00" />
+                            <Hfinal h="18:30" />
+                        </HEspectacle>
+                    </Horari>
+                    <Horari dia="Diumenge">
+                        <HEspectacle>
+                            <Hinici h="11:00" />
+                            <Hfinal h="13:00" />
+                        </HEspectacle>
+                        <HEspectacle>
+                            <Hinici h="14:30" />
+                            <Hfinal h="17:30" />
+                        </HEspectacle>
+                    </Horari>
+                </Espectacle>
+            </GM>
+            <GS>
+                <Espectacle nom="Around the coper">
+
+                    <TipusEspectacle>Musical</TipusEspectacle>
+                    <PassPreferent>SI</PassPreferent>
+                    <AccesDiscapacitats>SI</AccesDiscapacitats>
+                    <Horari dia="Dilluns">
+                        <HEspectacle>
+                            <Hinici h="14:00" />
+                            <Hfinal h="16:00" />
+                        </HEspectacle>
+                    </Horari>
+                    <Horari dia="Dimecres">
+                        <HEspectacle>
+                            <Hinici h="14:00" />
+                            <Hfinal h="16:00" />
+                        </HEspectacle>
+                    </Horari>
+                    <Horari dia="Divendres">
+                        <HEspectacle>
+                            <Hinici h="14:00" />
+                            <Hfinal h="16:00" />
+                        </HEspectacle>
+                    </Horari>
+                    <Horari dia="Diumenges">
+                        <HEspectacle>
+                            <Hinici h="14:00" />
+                            <Hfinal h="16:00" />
+                        </HEspectacle>
+                    </Horari>
+                    <Horari dia="Dissabtes">
+                        <HEspectacle>
+                            <Hinici h="16:00" />
+                            <Hfinal h="18:00" />
+                        </HEspectacle>
+                    </Horari>
+                </Espectacle>
+            </GS>
+            <Profes>
+                <Espectacle nom="ACoperParade">
+                    <TipusEspectacle>Desfilada</TipusEspectacle>
+                    <PassPreferent>NO</PassPreferent>
+                    <AccesDiscapacitats>NO</AccesDiscapacitats>
+                    <Horari dia="Dissabte">
+                        <HEspectacle>
+                            <Hinici h="20:00" />
+                            <Hfinal h="22:00" />
+                        </HEspectacle>
+                    </Horari>
+                    <Horari dia="Diumenge">
+                        <HEspectacle>
+                            <Hinici h="20:00" />
+                            <Hfinal h="22:00" />
+                        </HEspectacle>
+                    </Horari>
+                </Espectacle>
+                <Espectacle nom="Apocalipsis COVID">
+                    <TipusEspectacle>Desfilada</TipusEspectacle>
+                    <PassPreferent>NO</PassPreferent>
+                    <AccesDiscapacitats>NO</AccesDiscapacitats>
+                    <Horari dia="Dissabte">
+                        <HEspectacle>
+                            <Hinici h="12:30" />
+                            <Hfinal h="14:30" />
+                        </HEspectacle>
+                        <HEspectacle>
+                            <Hinici h="16:00" />
+                            <Hfinal h="18:30" />
+                        </HEspectacle>
+                    </Horari>
+                    <Horari dia="Diumenge">
+                        <HEspectacle>
+                            <Hinici h="11:30" />
+                            <Hfinal h="13:30" />
+                        </HEspectacle>
+                        <HEspectacle>
+                            <Hinici h="15:00" />
+                            <Hfinal h="17:00" />
+                        </HEspectacle>
+                    </Horari>
+                </Espectacle>
+            </Profes>
+        </Zonatematica>
+    </ESPECTACLES>
+
+    <RESTAURANTS>
+        <!--Igual que en las atraciones he hecho una etiqueta de
+        zona tematica general y dentro de esa sub etiquetas con cada zona -->
+        <Zona>
+            <ESO>
+                <Restaurant nom="La cuina de l'ESO">
+                    <!-- En el apartado de los restaurantes los nombres estan puestos en los atributos porque es mucho mas comodo, y resalta el nombre del mismo-->
+                    <TipusMenu>Infantil</TipusMenu> <!-- Para los tipos de menus que hay en cada restaurante he hecho 
+                        una etiqueta que contenga directamente menus especiales  -->
+                    <TipusServei>Taula i Autoservei</TipusServei>
+                </Restaurant>
+            </ESO>
+            <BATXILLERAT>
+                <Restaurant nom="Aiguaesfera Classes i Aigua">
+                    <TipusMenu>
+                        <Especials>Infantil</Especials>
+                    </TipusMenu>
+                    <TipusServei>Taula</TipusServei>
+                </Restaurant>
+
+                <Restaurant nom="Café de primera hora">
+                    <TipusServei>Autoservei</TipusServei>
+                </Restaurant>
+            </BATXILLERAT>
+            <GS>
+                <Restaurant nom="The iron student">
+                    <TipusMenu>
+                        <Especials>Celíac i infantil</Especials>
+                    </TipusMenu>
+                    <TipusServei>Taula</TipusServei>
+                </Restaurant>
+
+                <Restaurant nom="The new snack house">
+                    <TipusMenu>
+                        <Especials>Celíac</Especials>
+                    </TipusMenu>
+                    <TipusServei>Autoservei</TipusServei>
+                </Restaurant>
+            </GS>
+            <Profes>
+                <Restaurant nom="Cantina del coper">
+                    <TipusMenu>
+                        <Especials>Celíac i infantil</Especials>
+                    </TipusMenu>
+                    <TipusServei>Taula</TipusServei>
+                </Restaurant>
+
+                <Restaurant nom="Un entrepà express">
+                    <TipusMenu>
+                        <Especials>Celíac</Especials>
+                    </TipusMenu>
+                    <TipusServei>Autoservei</TipusServei>
+                </Restaurant>
+            </Profes>
+        </Zona>
+    </RESTAURANTS>
+    <BOTIGUES>
+        <!--Igual que en las atraciones he hecho una etiqueta de
+        zona tematica general y dentro de esa sub etiquetas con cada zona -->
+        <ESO>
+            <Botiga nom="ESOTenda">
+                <!-- En el apartado de las tiendas los nombres
+                 estan puestos en los atributos porque es mucho mas comodo, y resalta el nombre del mismo-->
+                <TipusProducte>Souvenirs</TipusProducte>
+                <ServeiDeRecollida>SI</ServeiDeRecollida>
+            </Botiga>
+            <Botiga nom="Fotos Profe-Profe">
+                <TipusProducte>Fotografies</TipusProducte>
+                <ServeiDeRecollida>NO</ServeiDeRecollida>
+            </Botiga>
+            <Botiga nom="Fotos Pati Mission">
+                <TipusProducte>Fotografies</TipusProducte>
+                <ServeiDeRecollida>NO</ServeiDeRecollida>
+            </Botiga>
+        </ESO>
+        <BATXILLERAT>
+            <Botiga nom="Fotos Furius Selectivity">
+                <TipusProducte>Fotografies</TipusProducte>
+                <ServeiDeRecollida>NO</ServeiDeRecollida>
+            </Botiga>
+            <Botiga nom="Records CoperAvetura">
+                <TipusProducte>Souvenirs</TipusProducte>
+                <ServeiDeRecollida>SI</ServeiDeRecollida>
+            </Botiga>
+            <Botiga nom="Dolços del mes">
+                <TipusProducte>Llaminadures</TipusProducte>
+                <ServeiDeRecollida>NO</ServeiDeRecollida>
+            </Botiga>
+        </BATXILLERAT>
+        <GM>
+            <Botiga nom="Fotos Pràctiques River Flume">
+                <TipusProducte>Fotografies</TipusProducte>
+                <ServeiDeRecollida>NO</ServeiDeRecollida>
+            </Botiga>
+            <Botiga nom="Fotos Dies Festius Rapids">
+                <TipusProducte>Fotografies</TipusProducte>
+                <ServeiDeRecollida>NO</ServeiDeRecollida>
+            </Botiga>
+            <Botiga nom="GM Store ">
+                <TipusProducte>Souvenirs</TipusProducte>
+                <ServeiDeRecollida>SI</ServeiDeRecollida>
+            </Botiga>
+            <Botiga nom="Dies Festius Rapids Shop">
+                <TipusProducte>Souvenirs i Llaminadures</TipusProducte>
+                <ServeiDeRecollida>NO</ServeiDeRecollida>
+            </Botiga>
+        </GM>
+        <GS>
+            <Botiga nom="Fotos Dual Khan">
+                <TipusProducte>Fotografies</TipusProducte>
+                <ServeiDeRecollida>NO</ServeiDeRecollida>
+            </Botiga>
+            <Botiga nom="Fotos Dhambhala">
+                <TipusProducte>Fotografies</TipusProducte>
+                <ServeiDeRecollida>NO</ServeiDeRecollida>
+            </Botiga>
+            <Botiga nom="GS Palace">
+                <TipusProducte>Souvenirs</TipusProducte>
+                <ServeiDeRecollida>si</ServeiDeRecollida>
+            </Botiga>
+        </GS>
+        <Profes>
+            <Botiga nom="Fotos Hurakan Truancy">
+                <TipusProducte>Fotografies</TipusProducte>
+                <ServeiDeRecollida>NO</ServeiDeRecollida>
+            </Botiga>
+            <Botiga nom="Hurakan Truancy Shop ">
+                <TipusProducte>Souvenirs</TipusProducte>
+                <ServeiDeRecollida>SI</ServeiDeRecollida>
+            </Botiga>
+
+        </Profes>
+
+    </BOTIGUES>
+
+    <DatesInteres>
+        <!--En les dates d'interes como namas tenemos que guardar 2 datos haciendo 2 etiquetas ya estaria bien-->
+        <DataObertura>08/07/2020</DataObertura>
+        <DataTancament>10/01/2021</DataTancament>
+    </DatesInteres>
+
+    <HorarisParc>
+        <!-- En la estructura de los Horarios del parque; Los nombres estan puestos en
+         atributos, dentro del mes la Hora de Obertura con las horas en atributos, y en el periodo en dias 
+         que estan puestos dentro de atributos, y Para los dias de la semana con su dia, igual en el horari de tancament  -->
+        <Mes nom="Juliol">
+            <HObertura h="10:00">
+                <periode inici="1" final="31">
+                    <Diasetmana>Dilluns</Diasetmana>
+                    <Diasetmana>Dimarts</Diasetmana>
+                    <Diasetmana>Dimecres</Diasetmana>
+                    <Diasetmana>Dijous</Diasetmana>
+                    <Diasetmana>Divendres</Diasetmana>
+                    <Diasetmana>Dissabte</Diasetmana>
+                    <Diasetmana>Diumenge</Diasetmana>
+                </periode>
+            </HObertura>
+            <DataTancament>
+                <Htancament h="22:00">
+                    <periode inici="1" final="31">
+                        <Diasetmana>Dilluns</Diasetmana>
+                        <Diasetmana>Dimarts</Diasetmana>
+                        <Diasetmana>Dimecres</Diasetmana>
+                        <Diasetmana>Dijous</Diasetmana>
+                        <Diasetmana>Divendres</Diasetmana>
+                        <Diasetmana>Dissabte</Diasetmana>
+                        <Diasetmana>Diumenge</Diasetmana>
+                    </periode>
+                </Htancament>
+            </DataTancament>
+
+        </Mes>
+        <Mes nom="Agost">
+            <DataObertura h="10:00">
+                <periode inici="1" final="31">
+                    <Diasetmana>Dilluns</Diasetmana>
+                    <Diasetmana>Dimarts</Diasetmana>
+                    <Diasetmana>Dimecres</Diasetmana>
+                    <Diasetmana>Dijous</Diasetmana>
+                    <Diasetmana>Divendres</Diasetmana>
+                    <Diasetmana>Dissabte</Diasetmana>
+                    <Diasetmana>Diumenge</Diasetmana>
+                </periode>
+            </DataObertura>
+            <DataTancament>
+                <periode inici="1" final="31">
+                    <Diasetmana>Dilluns</Diasetmana>
+                    <Diasetmana>Dimarts</Diasetmana>
+                    <Diasetmana>Dimecres</Diasetmana>
+                    <Diasetmana>Dijous</Diasetmana>
+                    <Diasetmana>Divendres</Diasetmana>
+                    <Diasetmana>Dissabte</Diasetmana>
+                    <Diasetmana>Diumenge</Diasetmana>
+                </periode>
+            </DataTancament>
+
+        </Mes>
+        <Mes nom="Setembre">
+            <HoraObertura>
+                10:00 a 22:00
+                <periode inici="1" final="31">
+                    <Diasetmana>Dilluns</Diasetmana>
+                    <Diasetmana>Dimarts</Diasetmana>
+                    <Diasetmana>Dimecres</Diasetmana>
+                    <Diasetmana>Dijous</Diasetmana>
+                    <Diasetmana>Divendres</Diasetmana>
+                    <Diasetmana>Dissabte</Diasetmana>
+                    <Diasetmana>Diumenge</Diasetmana>
+                </periode>
+            </HoraObertura>
+            <DataTancament>
+                <periode inici="14" final="30">
+                    <Diasetmana>Dilluns</Diasetmana>
+                    <Diasetmana>Dimarts</Diasetmana>
+                    <Diasetmana>Dimecres</Diasetmana>
+                    <Diasetmana>Dijous</Diasetmana>
+                    <Diasetmana>Divendres</Diasetmana>
+                    <Diasetmana>Diumenge</Diasetmana>
+                </periode>
+            </DataTancament>
+        </Mes>
+
+        <Mes nom="Octubre">
+            <HObertura h="10:00 ">
+                <periode inici="1" final="31">
+                    <Diasetmana>Dilluns</Diasetmana>
+                    <Diasetmana>Dimarts</Diasetmana>
+                    <Diasetmana>Dimecres</Diasetmana>
+                    <Diasetmana>Dijous</Diasetmana>
+                    <Diasetmana>Divendres</Diasetmana>
+                    <Diasetmana>Diumenge</Diasetmana>
+                </periode>
+            </HObertura>
+            <DataTancament h="20:00">
+                <periode inici="1" final="10">
+                    <Diasetmana>Dilluns</Diasetmana>
+                    <Diasetmana>Dimarts</Diasetmana>
+                    <Diasetmana>Dimecres</Diasetmana>
+                    <Diasetmana>Dijous</Diasetmana>
+                    <Diasetmana>Divendres</Diasetmana>
+                    <Diasetmana>Diumenge</Diasetmana>
+                </periode>
+                <periode inici="12" final="31">
+                    <Diasetmana>Dilluns</Diasetmana>
+                    <Diasetmana>Dimarts</Diasetmana>
+                    <Diasetmana>Dimecres</Diasetmana>
+                    <Diasetmana>Dijous</Diasetmana>
+                    <Diasetmana>Divendres</Diasetmana>
+                    <Diasetmana>Diumenge</Diasetmana>
+                </periode>
+            </DataTancament>
+            <DataTancament h="22:00">
+                <periode inici="1" final="31">
+                    <Diasetmana>Dissabte</Diasetmana>
+                </periode>
+                <periode inici="11" final="11">
+                    <Diasetmana>Diumenge</Diasetmana>
+                </periode>
+            </DataTancament>
+        </Mes>
+
+        <Mes nom="Novembre">
+            <HObertura h="10:00 ">
+                <periode inici="7" final="14">
+                    <Diasetmana>Dissabte</Diasetmana>
+                </periode>
+            </HObertura>
+            <DataTancament h="22:00">
+                <periode inici="1" final="14">
+                    <Diasetmana>Dissabte</Diasetmana>
+                </periode>
+            </DataTancament>
+            <HObertura h="10:00 ">
+                <periode inici="15" final="30">
+                    <Diasetmana>Dissabte</Diasetmana>
+                    <Diasetmana>Diumenge</Diasetmana>
+                </periode>
+            </HObertura>
+            <DataTancament h="18:00">
+                <periode inici="15" final="30">
+                    <Diasetmana>Dissabte</Diasetmana>
+                    <Diasetmana>Diumenge</Diasetmana>
+                </periode>
+            </DataTancament>
+
+        </Mes>
+        <Mes nom="Desembre">
+
+            <HObertura h="10:00 ">
+                <periode inici="1" final="6">
+                    <Diasetmana>Dissabte</Diasetmana>
+                    <Diasetmana>Diumenge</Diasetmana>
+                </periode>
+            </HObertura>
+            <DataTancament h="18:00">
+                <periode inici="1" final="6">
+                    <Diasetmana>Dissabte</Diasetmana>
+                    <Diasetmana>Diumenge</Diasetmana>
+                </periode>
+            </DataTancament>
+
+            <HObertura h="10:00 ">
+                <periode inici="7" final="7">
+                    <Diasetmana>Dilluns</Diasetmana>
+                </periode>
+            </HObertura>
+            <DataTancament h="18:00">
+                <periode inici="7" final="7">
+                    <Diasetmana>Dilluns</Diasetmana>
+                </periode>
+            </DataTancament>
+
+            <HObertura h="10:00 ">
+                <periode inici="8" final="8">
+                    <Diasetmana>Dimarts</Diasetmana>
+                </periode>
+            </HObertura>
+            <DataTancament h="18:00">
+                <periode inici="8" final="8">
+                    <Diasetmana>Dimarts</Diasetmana>
+                </periode>
+            </DataTancament>
+
+            <HObertura h="10:00 ">
+                <periode inici="9" final="20">
+                    <Diasetmana>Dissabte</Diasetmana>
+                    <Diasetmana>Diumenge</Diasetmana>
+                </periode>
+            </HObertura>
+            <DataTancament h="18:00">
+                <periode inici="9" final="20">
+                    <Diasetmana>Dissabte</Diasetmana>
+                    <Diasetmana>Diumenge</Diasetmana>
+                </periode>
+            </DataTancament>
+
+            <HObertura h="10:00 ">
+                <periode inici="21" final="25">
+                    <Diasetmana>Dissabte</Diasetmana>
+                    <Diasetmana>Diumenge</Diasetmana>
+                </periode>
+            </HObertura>
+            <DataTancament h="18:00">
+                <periode inici="21" final="25">
+                    <Diasetmana>Dissabte</Diasetmana>
+                    <Diasetmana>Diumenge</Diasetmana>
+                </periode>
+
+            </DataTancament>
+            <HObertura h="10:00 ">
+                <periode inici="28" final="31">
+                    <Diasetmana>Dissabte</Diasetmana>
+                    <Diasetmana>Diumenge</Diasetmana>
+                </periode>
+            </HObertura>
+            <DataTancament h="18:00">
+                <periode inici="28" final="31">
+                    <Diasetmana>Dissabte</Diasetmana>
+                    <Diasetmana>Diumenge</Diasetmana>
+                </periode>
+            </DataTancament>
+        </Mes>
+
+        <Mes nom="Gener">
+            <HoraObertura h="10:00">
+                <periode inici="1" final="10">
+                    <Diasetmana>Dilluns</Diasetmana>
+                    <Diasetmana>Dimarts</Diasetmana>
+                    <Diasetmana>Dimecres</Diasetmana>
+                    <Diasetmana>Dijous</Diasetmana>
+                    <Diasetmana>Divendres</Diasetmana>
+                    <Diasetmana>Dissabte</Diasetmana>
+                    <Diasetmana>Diumenge</Diasetmana>
+                </periode>
+            </HoraObertura>
+            <DataTancament h="18:00 ">
+                <periode inici="1" final="10">
+                    <Diasetmana>Dilluns</Diasetmana>
+                    <Diasetmana>Dimarts</Diasetmana>
+                    <Diasetmana>Dimecres</Diasetmana>
+                    <Diasetmana>Dijous</Diasetmana>
+                    <Diasetmana>Divendres</Diasetmana>
+                    <Diasetmana>Diumenge</Diasetmana>
+                </periode>
+            </DataTancament>
+        </Mes>
+    </HorarisParc>
+</PARC>
