@@ -1,7 +1,6 @@
-QWEQDWQWEQDWQWEQDWQWEQDWQWEQDWQWEQDW
-QWEQDWQWEQDWQWEQDWQWEQDWQWEQDWQWEQDWQWEQDW
-QWEQDWQWEQDWQWEQDWQWEQDWQWEQDW
+### UF1
+En questa Unitat Formativa hem de desnvolupar les seguents **pràtiques**:
 
-QWEQDWQWEQDWQWEQDWQWEQDWQWEQDW
 
-QWEQDWQWEQDWQWEQDWQWEQDW
+### UF2
+En questa Unitat Formativa hem de desnvolupar les seguents **pràtiques**:
