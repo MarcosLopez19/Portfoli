@@ -1,1 +1,1 @@
-## Carpeta principal de los modulos del GGS 1r AÑO ##
+## Carpeta principal dels mòduls del GGS 1r ANY ##
